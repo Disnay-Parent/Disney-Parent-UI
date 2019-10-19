@@ -303,3 +303,6 @@ template {
 [hidden] {
   display: none;
 }
+.sm-list {
+  list-style-type: none;
+}
