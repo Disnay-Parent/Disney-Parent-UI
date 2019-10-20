@@ -303,6 +303,122 @@ template {
 [hidden] {
   display: none;
 }
-.sm-list {
-  list-style-type: none;
+* {
+  font-size: 62.5%;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container .single-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: auto;
+  border-radius: 0.4rem;
+  background-color: #eaeaea;
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+  transition: 0.3s;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+.cards-container .single-card h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  margin-bottom: 2rem;
+}
+.cards-container .single-card h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.cards-container .single-card .team-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.cards-container .single-card .social-media .sm-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cards-container .single-card .social-media .sm-list i {
+  font-size: 3.3rem;
+  transition: color 0.5s;
+  padding: 0rem 0.5rem;
+  transition: all 0.5s;
+}
+.single-card:nth-child(1) .team-img {
+  background-image: url(../img/about-img/riznis200.png);
+}
+.single-card:nth-child(2) .team-img {
+  background-image: url(../img/about-img/anderson200.png);
+}
+.single-card:nth-child(3) .team-img {
+  background-image: url(../img/about-img/fisher200.png);
+}
+.single-card:nth-child(4) .team-img {
+  background-image: url(../img/about-img/loveless200.png);
+}
+.single-card:nth-child(5) .team-img {
+  background-image: url(../img/about-img/simionescu200.png);
+}
+.single-card:nth-child(6) .team-img {
+  background-image: url(../img/about-img/bowcott200.png);
+}
+.single-card:nth-child(7) .team-img {
+  background-image: url(../img/about-img/doyle200.png);
+}
+.fa-linkedin {
+  color: #0077B5;
+}
+.fa-twitter-square {
+  color: #55acee;
+}
+.fa-address-card {
+  color: #BB1232;
+}
+.single-card:hover {
+  background: #110a7e;
+  background: linear-gradient(0deg, #110a7e 0%, #22c1c3 81%);
+}
+i:hover {
+  transform: translateY(-5px);
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+i:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.6rem;
+  margin-top: 2rem;
 }
