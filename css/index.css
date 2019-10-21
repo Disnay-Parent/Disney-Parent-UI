@@ -312,27 +312,27 @@ h1 {
 }
 .cards-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .cards-container .single-card {
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 30rem;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
   height: auto;
   border-radius: 0.4rem;
   background-color: #eaeaea;
   text-align: center;
   margin: 2rem;
-  padding: 2rem;
+  padding: 20px;
   transition: 0.3s;
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
-  padding-bottom: 0rem;
-  margin-bottom: 0rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .cards-container .single-card h2 {
   font-size: 3.2rem;
@@ -348,12 +348,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
-  height: 10rem;
+  width: 100px;
+  height: 100px;
   border: 6px solid #ddd;
   border-radius: 50%;
   margin-bottom: 1rem;
-  padding: 2rem;
+  padding: 20px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -363,7 +363,7 @@ h1 {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem 0;
+  padding: 20px 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -404,6 +404,9 @@ h1 {
 .fa-address-card {
   color: #BB1232;
 }
+.fa-github-square {
+  color: black;
+}
 .single-card:hover {
   background: #110a7e;
   background: linear-gradient(0deg, #110a7e 0%, #22c1c3 81%);
@@ -418,7 +421,7 @@ i:active {
 }
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 20px;
   font-size: 1.6rem;
-  margin-top: 2rem;
+  margin-top: 20px;
 }
