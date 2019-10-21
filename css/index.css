@@ -324,6 +324,7 @@ template {
 }
 .header .navbar {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #253b56;
   display: flex;
   justify-content: center;
@@ -336,6 +337,12 @@ template {
   justify-content: center;
   align-items: space-between;
 >>>>>>> a6ce127ad389a5fc2308d3342b45b30ebae77e9b
+=======
+  background-color: #253b57;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+>>>>>>> be7d4b991b8bd8e16fcc5792a4664d451c891ffa
   flex-direction: row;
 }
 .header .navbar .nav-link {
@@ -353,6 +360,32 @@ template {
 =======
   font-size: 3em;
 >>>>>>> a6ce127ad389a5fc2308d3342b45b30ebae77e9b
+}
+.header .section1 p {
+  color: #253b57;
+  font-size: 10em;
+  text-align: center;
+}
+.header .section1 .main-gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.container .swap {
+  display: flex;
+  justify-content: left;
+  align-items: space-evenly;
+  flex-direction: row;
+}
+.container .swap img.stroller {
+  width: 40%;
+  height: 10%;
 }
 h1 {
   text-align: center;
