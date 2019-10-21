@@ -368,15 +368,45 @@ template {
 .container .swap .stroller {
   width: 35%;
   height: 10%;
+  padding-bottom: 5%;
 }
 .container .swap .sharing {
   width: 35%;
-  padding: 2%;
+  padding-top: 5%;
   color: #253b57;
-  font-size: 5rem;
+  font-size: 3rem;
+  text-align: center;
 }
 .container .swap .tink {
   width: 10%;
+  height: 5%;
+}
+.container .buddy {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-direction: row-reverse;
+}
+.container .buddy .characters {
+  width: 30%;
+  height: 10%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.container .buddy .buddy-system {
+  width: 25%;
+  padding-top: 5%;
+  color: #253b57;
+  font-size: 3rem;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 2%;
+}
+.container .buddy .mick {
+  width: 10%;
+  height: 5%;
+  padding-top: 5%;
+  padding-right: 2%;
 }
 .about-body {
   margin: 5px;
