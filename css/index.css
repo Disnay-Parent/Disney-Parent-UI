@@ -306,20 +306,42 @@ template {
 * {
   font-size: 62.5%;
 }
+@font-face {
+  font-family: 'new_walt_disney_uiregular';
+  src: url('../css/fonts/new-waltograph/new_walt_disney_ui-webfont.woff2') format('woff2'), url('../css/fonts/new-waltograph/new_walt_disney_ui-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'new_waltographregular';
+  src: url('../css/fonts/new-waltograph/new_walt_disney-webfont.woff2') format('woff2'), url('../css/fonts/new-waltograph/new_walt_disney-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .header {
   width: 100%;
   height: 20%;
 }
 .header .navbar {
+<<<<<<< HEAD
   background-color: #253b56;
   display: flex;
   justify-content: center;
   align-items: space-around;
+=======
+  justify-content: space-between;
+  align-items: center;
+  background-color: #253b56;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+>>>>>>> a6ce127ad389a5fc2308d3342b45b30ebae77e9b
   flex-direction: row;
 }
 .header .navbar .nav-link {
   text-decoration: none;
   color: #E0E4E9;
+<<<<<<< HEAD
   font-size: 8em;
   padding-right: 8%;
   padding-bottom: 2%;
@@ -328,10 +350,14 @@ template {
 .header .navbar .nav-link:hover {
   color: #55acee;
   font-size: 10em;
+=======
+  font-size: 3em;
+>>>>>>> a6ce127ad389a5fc2308d3342b45b30ebae77e9b
 }
 h1 {
   text-align: center;
   font-size: 5rem;
+  font-family: new_walt_disney_uiregular;
 }
 .cards-container {
   display: flex;
@@ -362,6 +388,7 @@ h1 {
   font-weight: 500;
   line-height: 3.2rem;
   margin-bottom: 2rem;
+  font-family: new_waltographregular;
 }
 .cards-container .single-card h3 {
   font-size: 1.6rem;
