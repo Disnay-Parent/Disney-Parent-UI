@@ -2,20 +2,24 @@
 .container {
     width: 100%; 
     height: auto;
+    padding-bottom: 5%;
         .swap {
-            .flex-layout(left, space-evenly);
+            .flex-layout(center, space-evenly);
             flex-direction: row;
-            img.stroller{
-                width: 40%;
+            .stroller {
+                width: 35%;
                 height: 10%;
             }
-            .sharing
+            .sharing {
+                width: 35%;
+                padding: 2%;
+                .main-font(@main-header, 5rem);
+            }
+            .tink {
+                width: 10%;
+            }
         }
 }
-
-
-
-
 
 // ABOUT.HTML
 .about-body{
