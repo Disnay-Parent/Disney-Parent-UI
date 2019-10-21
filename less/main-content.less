@@ -9,15 +9,43 @@
             .stroller {
                 width: 35%;
                 height: 10%;
+                padding-bottom: 5%;
             }
             .sharing {
                 width: 35%;
-                padding: 2%;
-                .main-font(@main-header, 5rem);
+                padding-top: 5%;
+                .main-font(@main-header, 3rem);
+                text-align: center;
+                
             }
             .tink {
                 width: 10%;
+                height: 5%;
             }
+        }
+        .buddy {
+            .flex-layout(center, space-evenly);
+            flex-direction: row-reverse;
+                .characters {
+                    width: 30%;
+                    height: 10%;
+                    padding-bottom: 5%;
+                    padding-left: 5%;
+                }
+                .buddy-system {
+                        width: 25%;
+                        padding-top: 5%;
+                        .main-font(@main-header, 3rem);
+                        text-align: center;
+                        padding-right: 5%;
+                        padding-left: 2%;
+                }
+                .mick {
+                    width:  10%;
+                    height: 5%;
+                    padding-top: 5%;
+                    padding-right: 2%;
+                }
         }
 }
 
