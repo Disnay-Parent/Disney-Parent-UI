@@ -306,18 +306,39 @@ template {
 * {
   font-size: 62.5%;
 }
+@font-face {
+  font-family: 'new_walt_disney_uiregular';
+  src: url('../css/fonts/new-waltograph/new_walt_disney_ui-webfont.woff2') format('woff2'), url('../css/fonts/new-waltograph/new_walt_disney_ui-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'new_waltographregular';
+  src: url('../css/fonts/new-waltograph/new_walt_disney-webfont.woff2') format('woff2'), url('../css/fonts/new-waltograph/new_walt_disney-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .header {
   width: 100%;
 }
 .header .navbar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #253b56;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-direction: row;
+}
+.header .navbar .nav-link {
+  text-decoration: none;
+  color: #E0E4E9;
+  font-size: 3em;
 }
 h1 {
   text-align: center;
   font-size: 5rem;
+  font-family: new_walt_disney_uiregular;
 }
 .cards-container {
   display: flex;
@@ -348,6 +369,7 @@ h1 {
   font-weight: 500;
   line-height: 3.2rem;
   margin-bottom: 2rem;
+  font-family: new_waltographregular;
 }
 .cards-container .single-card h3 {
   font-size: 1.6rem;
