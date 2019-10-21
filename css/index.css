@@ -344,16 +344,26 @@ template {
 .container {
   width: 100%;
   height: auto;
+  padding-bottom: 5%;
 }
 .container .swap {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: space-evenly;
   flex-direction: row;
 }
-.container .swap img.stroller {
-  width: 40%;
+.container .swap .stroller {
+  width: 35%;
   height: 10%;
+}
+.container .swap .sharing {
+  width: 35%;
+  padding: 2%;
+  color: #253b57;
+  font-size: 5rem;
+}
+.container .swap .tink {
+  width: 10%;
 }
 h1 {
   text-align: center;
