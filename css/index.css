@@ -306,6 +306,15 @@ template {
 * {
   font-size: 62.5%;
 }
+.header {
+  width: 100%;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #253b56;
+}
 h1 {
   text-align: center;
   font-size: 5rem;
