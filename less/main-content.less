@@ -1,8 +1,29 @@
 // INDEX.HTML
+.section1 {
+    margin-left: 9%;
+    margin-right: 9%;
+    line-height: 35px;
+    .title {
+        font-size: 5rem;
+        text-align: center;
+        font-family: new_waltographregular;
+        
+    }
+    p {
+        .main-font(@main-header, 2rem);
+        text-align: center;
+    }
+    .main-gif {
+        .flex-layout(center, center);
+        padding-bottom: 3%;
+        padding-top: 1%;
+    }
+}
 .container {
     width: 100%; 
     height: auto;
-    padding-bottom: 5%;
+    line-height: 35px;
+        // stroller and pass sharing
         .swap {
             .flex-layout(center, space-evenly);
             flex-direction: row;
@@ -16,6 +37,8 @@
                 padding-top: 5%;
                 .main-font(@main-header, 3rem);
                 text-align: center;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
                 
             }
             .tink {
@@ -23,6 +46,7 @@
                 height: 5%;
             }
         }
+        // BUDDY SYSTEM
         .buddy {
             .flex-layout(center, space-evenly);
             flex-direction: row-reverse;
@@ -39,6 +63,8 @@
                         text-align: center;
                         padding-right: 5%;
                         padding-left: 2%;
+                        font-family: 'Roboto Condensed', sans-serif;
+                    }
                 }
                 .mick {
                     width:  10%;
@@ -46,9 +72,56 @@
                     padding-top: 5%;
                     padding-right: 2%;
                 }
+        // MEET AND GREET
+        .event {
+            .flex-layout(center, space-evenly);
+            flex-direction: row;
+                .daycare {
+                    width: 28%;
+                    height: 10%;
+                    padding-bottom: 5%;
+                }
+                .relax {
+                    width: 25%;
+                    padding-top: 2%;
+                    .main-font(@main-header, 3rem);
+                    text-align: center;
+                    padding-right: 5%;
+                    padding-left: 2%;
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+                .ursula {
+                    width: 20%;
+                    height: 2%;
+                    padding-bottom: 5%;
+                }
         }
-}
-
+        // DISCUSSION BOARD
+        .discuss {
+            .flex-layout(center, space-evenly);
+            flex-direction: row-reverse;
+                .castle {
+                    width: 20%;
+                    height: 5%;
+                    padding-bottom: 5%;
+                    padding-left: 5%;
+                }
+                .boards {
+                    width: 25%;
+                    padding-top: 5%;
+                    .main-font(@main-header, 3rem);
+                    text-align: center;
+                    padding-right: 5%;
+                    padding-left: 2%;
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+                .ariel {
+                    width:  20%;
+                    height: 10%;
+                    padding-top: 5%;
+                    padding-right: 2%;
+                }
+        }
 // ABOUT.HTML
 .about-body{
     margin: 5px;

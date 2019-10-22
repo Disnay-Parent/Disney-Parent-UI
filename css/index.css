@@ -331,23 +331,34 @@ template {
   flex-direction: row;
 }
 .header .navbar .nav-link {
+  font-family: new_waltographregular;
   text-decoration: none;
   color: #E0E4E9;
-  font-size: 8em;
+  font-size: 3rem;
   padding-right: 8%;
   padding-bottom: 2%;
   padding-top: 2%;
 }
 .header .navbar .nav-link:hover {
   color: #55acee;
-  font-size: 10em;
+  font-size: 5rem;
 }
-.header .section1 p {
+.section1 {
+  margin-left: 9%;
+  margin-right: 9%;
+  line-height: 35px;
+}
+.section1 .title {
+  font-size: 5rem;
+  text-align: center;
+  font-family: new_waltographregular;
+}
+.section1 p {
   color: #253b57;
-  font-size: 10em;
+  font-size: 2rem;
   text-align: center;
 }
-.header .section1 .main-gif {
+.section1 .main-gif {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,7 +368,7 @@ template {
 .container {
   width: 100%;
   height: auto;
-  padding-bottom: 5%;
+  line-height: 35px;
 }
 .container .swap {
   display: flex;
@@ -376,24 +387,25 @@ template {
   color: #253b57;
   font-size: 3rem;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-.container .swap .tink {
+.container .tink {
   width: 10%;
   height: 5%;
 }
-.container .buddy {
+.buddy {
   display: flex;
   justify-content: center;
   align-items: space-evenly;
   flex-direction: row-reverse;
 }
-.container .buddy .characters {
+.buddy .characters {
   width: 30%;
   height: 10%;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.container .buddy .buddy-system {
+.buddy .buddy-system {
   width: 25%;
   padding-top: 5%;
   color: #253b57;
@@ -401,10 +413,65 @@ template {
   text-align: center;
   padding-right: 5%;
   padding-left: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-.container .buddy .mick {
+.mick {
   width: 10%;
   height: 5%;
+  padding-top: 5%;
+  padding-right: 2%;
+}
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-direction: row;
+}
+.event .daycare {
+  width: 28%;
+  height: 10%;
+  padding-bottom: 5%;
+}
+.event .relax {
+  width: 25%;
+  padding-top: 2%;
+  color: #253b57;
+  font-size: 3rem;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.event .ursula {
+  width: 20%;
+  height: 2%;
+  padding-bottom: 5%;
+}
+.discuss {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-direction: row-reverse;
+}
+.discuss .castle {
+  width: 20%;
+  height: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.discuss .boards {
+  width: 25%;
+  padding-top: 5%;
+  color: #253b57;
+  font-size: 3rem;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.discuss .ariel {
+  width: 20%;
+  height: 10%;
   padding-top: 5%;
   padding-right: 2%;
 }
