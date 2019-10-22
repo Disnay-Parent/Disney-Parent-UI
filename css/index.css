@@ -365,6 +365,11 @@ template {
   padding-bottom: 3%;
   padding-top: 1%;
 }
+@media (max-width: 500px) {
+  .section1 {
+    margin: auto;
+  }
+}
 .container {
   width: 100%;
   height: auto;
@@ -381,6 +386,14 @@ template {
   height: 10%;
   padding-bottom: 5%;
 }
+@media (max-width: 500px) {
+  .container .swap .stroller {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
 .container .swap .sharing {
   width: 35%;
   padding-top: 5%;
@@ -389,23 +402,53 @@ template {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.container .tink {
+@media (max-width: 500px) {
+  .container .swap .sharing {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .swap .tink {
   width: 10%;
   height: 5%;
 }
-.buddy {
+@media (max-width: 500px) {
+  .container .swap .tink {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container .swap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container .buddy {
   display: flex;
   justify-content: center;
   align-items: space-evenly;
   flex-direction: row-reverse;
 }
-.buddy .characters {
+.container .buddy .characters {
   width: 30%;
   height: 10%;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.buddy .buddy-system {
+@media (max-width: 500px) {
+  .container .buddy .characters {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .buddy .buddy-system {
   width: 25%;
   padding-top: 5%;
   color: #253b57;
@@ -415,24 +458,54 @@ template {
   padding-left: 2%;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.mick {
+@media (max-width: 500px) {
+  .container .buddy .buddy-system {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .buddy .mick {
   width: 10%;
   height: 5%;
   padding-top: 5%;
   padding-right: 2%;
 }
-.event {
+@media (max-width: 500px) {
+  .container .buddy .mick {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container .buddy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container .event {
   display: flex;
   justify-content: center;
   align-items: space-evenly;
   flex-direction: row;
 }
-.event .daycare {
+.container .event .daycare {
   width: 28%;
   height: 10%;
   padding-bottom: 5%;
 }
-.event .relax {
+@media (max-width: 500px) {
+  .container .event .daycare {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .event .relax {
   width: 25%;
   padding-top: 2%;
   color: #253b57;
@@ -442,24 +515,54 @@ template {
   padding-left: 2%;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.event .ursula {
+@media (max-width: 500px) {
+  .container .event .relax {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .event .ursula {
   width: 20%;
   height: 2%;
   padding-bottom: 5%;
 }
-.discuss {
+@media (max-width: 500px) {
+  .container .event .ursula {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container .event {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container .discuss {
   display: flex;
   justify-content: center;
   align-items: space-evenly;
   flex-direction: row-reverse;
 }
-.discuss .castle {
+.container .discuss .castle {
   width: 20%;
   height: 5%;
   padding-bottom: 5%;
   padding-left: 5%;
 }
-.discuss .boards {
+@media (max-width: 500px) {
+  .container .discuss .castle {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .discuss .boards {
   width: 25%;
   padding-top: 5%;
   color: #253b57;
@@ -469,11 +572,37 @@ template {
   padding-left: 2%;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.discuss .ariel {
+@media (max-width: 500px) {
+  .container .discuss .boards {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}
+.container .discuss .ariel {
   width: 20%;
   height: 10%;
   padding-top: 5%;
   padding-right: 2%;
+}
+@media (max-width: 500px) {
+  .container .discuss .ariel {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container .discuss {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
 }
 .about-body {
   margin: 5px;
