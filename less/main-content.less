@@ -35,6 +35,10 @@
                 height: 10%;
                 padding-bottom: 5%;
 
+                @media @tablet {
+                    width: 40%;
+                    padding-bottom: 5%;
+                }
                 @media @mobile {     
                     width: 90%;
                     padding-left: 0px;
@@ -49,16 +53,16 @@
                 text-align: center;
                 font-family: 'Roboto Condensed', sans-serif;
                
+                @media @tablet {
+                    width: 40%;
+                    padding-bottom: 5%;
+                }
                 @media @mobile {     
                     width: 90%;
                     padding-left: 0px;
                     padding-top: 0px;
                     padding-right: 0px;
-                    }
-                    @media @tablet {
-                        width: 95%;
-                        padding-bottom: 5%;
-                    }
+                }
             }
                 
             .tink {
@@ -73,6 +77,9 @@
                 }
             
             }
+            @media @tablet {
+                .flex-layout(center, center);
+            }
             @media @mobile {
                 display: flex;
                 flex-direction: column;
@@ -80,9 +87,6 @@
                 justify-content: center;
                 align-items: center;  
             }  
-            @media @tablet {
-                .flex-layout(center, center);
-            }
         }
         
         // BUDDY SYSTEM
@@ -95,6 +99,10 @@
                     padding-bottom: 5%;
                     padding-left: 5%;
 
+                    @media @tablet {
+                        width: 40%;
+                        padding-bottom: 5%;
+                    }
                     @media @mobile {     
                         width: 90%;
                         padding-left: 0px;
@@ -112,15 +120,15 @@
                         padding-left: 2%;
                         font-family: 'Roboto Condensed', sans-serif;
 
+                        @media @tablet {
+                            width: 40%;
+                            padding-bottom: 5%;
+                        }
                         @media @mobile {     
                             width: 90%;
                             padding-left: 0px;
                             padding-top: 0px;
                             padding-right: 0px;
-                            }
-                            @media @tablet {
-                                width: 95%;
-                                padding-bottom: 5%;
                             }
                 }
                 
@@ -138,6 +146,9 @@
                     }
                
                 }
+                @media @tablet {
+                    .flex-layout(center, center);
+                }
                 @media @mobile {
                     display: flex;
                     flex-direction: column;
@@ -145,9 +156,7 @@
                     justify-content: center;
                     align-items: center;
                 }
-                @media @tablet {
-                    .flex-layout(center, center);
-                }
+                
         }
         // MEET AND GREET
         .event {
@@ -158,6 +167,10 @@
                     height: 10%;
                     padding-bottom: 5%;
 
+                    @media @tablet {
+                        width: 40%;
+                        padding-bottom: 5%;
+                    }
                     @media @mobile {     
                         width: 90%;
                         padding-left: 0px;
@@ -174,16 +187,17 @@
                     padding-left: 2%;
                     font-family: 'Roboto Condensed', sans-serif;
 
+                    @media @tablet {
+                        width: 40%;
+                        padding-bottom: 5%;
+                    }
                     @media @mobile {     
                         width: 90%;
                         padding-left: 0px;
                         padding-top: 0px;
                         padding-right: 0px;
                         }
-                        @media @tablet {
-                            width: 95%;
-                            padding-bottom: 5%;
-                        }
+                        
                 }
                 .ursula {
                     width: 20%;
@@ -197,16 +211,16 @@
                         display: none;
                     }
                 }
+                @media @tablet {
+                    .flex-layout(center, center);
+                } 
                 @media @mobile {
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                }  
-                @media @tablet {
-                    .flex-layout(center, center);
-                }  
+                }   
                
         }
         // DISCUSSION BOARD
@@ -221,12 +235,14 @@
 
                     @media @mobile {     
                         width: 90%;
-                        padding-left: 0px;
-                        padding-top: 0px;
-                        padding-right: 0px;
+                        }
+                    @media @tablet {
+                            width: 40%;
+                            padding-bottom: 5%;
                         }
                 }
                 .boards {
+                    
                     width: 25%;
                     padding-top: 5%;
                     .main-font(@main-header, 3rem);
@@ -235,15 +251,16 @@
                     padding-left: 2%;
                     font-family: 'Roboto Condensed', sans-serif;
                     
+                    @media @tablet {
+                        width: 40%;
+                        padding-bottom: 5%;
+                    }
+
                     @media @mobile {     
                     width: 90%;
                     padding-left: 0px;
                     padding-top: 0px;
                     padding-right: 0px;
-                    }
-                    @media @tablet {
-                        width: 95%;
-                        padding-bottom: 5%;
                     }
                 }
                 .ariel {
@@ -259,20 +276,17 @@
                         display: none;
                     }
                 }
+                @media @tablet {
+                    .flex-layout(center, center);
+                }
                 @media @mobile {
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
                     justify-content: center;
-                    align-items: center;               
-                    width: 100%;
-                    padding-left: 0px;
-                    padding-top: 0px;
-                    padding-right: 0px;
+                    align-items: center; 
                 }   
-                @media @tablet {
-                    .flex-layout(center, center);
-                }
+                
         }
 }
 // ABOUT.HTML
