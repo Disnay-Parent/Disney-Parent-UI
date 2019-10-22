@@ -55,6 +55,10 @@
                     padding-top: 0px;
                     padding-right: 0px;
                     }
+                    @media @tablet {
+                        width: 95%;
+                        padding-bottom: 5%;
+                    }
             }
                 
             .tink {
@@ -64,6 +68,9 @@
                 @media @mobile {
                     display: none;
                 }
+                @media @tablet {
+                    display: none;
+                }
             
             }
             @media @mobile {
@@ -71,10 +78,11 @@
                 flex-direction: column;
                 flex-wrap: wrap;
                 justify-content: center;
-                align-items: center;
-                
-                
-        }  
+                align-items: center;  
+            }  
+            @media @tablet {
+                .flex-layout(center, center);
+            }
         }
         
         // BUDDY SYSTEM
@@ -93,6 +101,7 @@
                         padding-top: 0px;
                         padding-right: 0px;
                         }
+                
                 }
                 .buddy-system {
                         width: 25%;
@@ -109,6 +118,10 @@
                             padding-top: 0px;
                             padding-right: 0px;
                             }
+                            @media @tablet {
+                                width: 95%;
+                                padding-bottom: 5%;
+                            }
                 }
                 
                 .mick {
@@ -120,6 +133,9 @@
                     @media @mobile {
                         display: none;
                     }
+                    @media @tablet {
+                        display: none;
+                    }
                
                 }
                 @media @mobile {
@@ -128,7 +144,10 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-            }
+                }
+                @media @tablet {
+                    .flex-layout(center, center);
+                }
         }
         // MEET AND GREET
         .event {
@@ -161,6 +180,10 @@
                         padding-top: 0px;
                         padding-right: 0px;
                         }
+                        @media @tablet {
+                            width: 95%;
+                            padding-bottom: 5%;
+                        }
                 }
                 .ursula {
                     width: 20%;
@@ -170,6 +193,9 @@
                     @media @mobile {
                         display: none;
                     }
+                    @media @tablet {
+                        display: none;
+                    }
                 }
                 @media @mobile {
                     display: flex;
@@ -177,7 +203,10 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                }    
+                }  
+                @media @tablet {
+                    .flex-layout(center, center);
+                }  
                
         }
         // DISCUSSION BOARD
@@ -212,6 +241,10 @@
                     padding-top: 0px;
                     padding-right: 0px;
                     }
+                    @media @tablet {
+                        width: 95%;
+                        padding-bottom: 5%;
+                    }
                 }
                 .ariel {
                     width:  20%;
@@ -220,6 +253,9 @@
                     padding-right: 2%;
 
                     @media @mobile {
+                        display: none;
+                    }
+                    @media @tablet {
                         display: none;
                     }
                 }
@@ -234,6 +270,9 @@
                     padding-top: 0px;
                     padding-right: 0px;
                 }   
+                @media @tablet {
+                    .flex-layout(center, center);
+                }
         }
 }
 // ABOUT.HTML

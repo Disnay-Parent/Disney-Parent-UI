@@ -410,6 +410,12 @@ template {
     padding-right: 0px;
   }
 }
+@media (min-width:800px) {
+  .container .swap .sharing {
+    width: 95%;
+    padding-bottom: 5%;
+  }
+}
 .container .swap .tink {
   width: 10%;
   height: 5%;
@@ -419,11 +425,23 @@ template {
     display: none;
   }
 }
+@media (min-width:800px) {
+  .container .swap .tink {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .container .swap {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width:800px) {
+  .container .swap {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -466,6 +484,12 @@ template {
     padding-right: 0px;
   }
 }
+@media (min-width:800px) {
+  .container .buddy .buddy-system {
+    width: 95%;
+    padding-bottom: 5%;
+  }
+}
 .container .buddy .mick {
   width: 10%;
   height: 5%;
@@ -477,11 +501,23 @@ template {
     display: none;
   }
 }
+@media (min-width:800px) {
+  .container .buddy .mick {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .container .buddy {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width:800px) {
+  .container .buddy {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -523,6 +559,12 @@ template {
     padding-right: 0px;
   }
 }
+@media (min-width:800px) {
+  .container .event .relax {
+    width: 95%;
+    padding-bottom: 5%;
+  }
+}
 .container .event .ursula {
   width: 20%;
   height: 2%;
@@ -533,11 +575,23 @@ template {
     display: none;
   }
 }
+@media (min-width:800px) {
+  .container .event .ursula {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .container .event {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width:800px) {
+  .container .event {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -580,6 +634,12 @@ template {
     padding-right: 0px;
   }
 }
+@media (min-width:800px) {
+  .container .discuss .boards {
+    width: 95%;
+    padding-bottom: 5%;
+  }
+}
 .container .discuss .ariel {
   width: 20%;
   height: 10%;
@@ -587,6 +647,11 @@ template {
   padding-right: 2%;
 }
 @media (max-width: 500px) {
+  .container .discuss .ariel {
+    display: none;
+  }
+}
+@media (min-width:800px) {
   .container .discuss .ariel {
     display: none;
   }
@@ -602,6 +667,13 @@ template {
     padding-left: 0px;
     padding-top: 0px;
     padding-right: 0px;
+  }
+}
+@media (min-width:800px) {
+  .container .discuss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .about-body {
