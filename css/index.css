@@ -353,7 +353,11 @@ template {
   text-align: center;
   font-family: new_waltographregular;
 }
+<<<<<<< HEAD
 .section1 p {
+=======
+.header .section1 p {
+>>>>>>> e9b2fa67d5fda408fbcc33173134afa6a6618d25
   color: #253b57;
   font-size: 2rem;
   text-align: center;
