@@ -324,32 +324,10 @@ template {
   height: 20%;
 }
 .header .navbar {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 76de5e156dd6e27f3a7060a50ef41bcd89f5e3f1
-  background-color: #253b56;
-  display: flex;
-  justify-content: center;
-  align-items: space-around;
-<<<<<<< HEAD
-=======
-  justify-content: space-between;
-  align-items: center;
-  background-color: #253b56;
-  display: flex;
-  justify-content: center;
-  align-items: space-between;
->>>>>>> a6ce127ad389a5fc2308d3342b45b30ebae77e9b
-=======
   background-color: #253b57;
   display: flex;
   justify-content: center;
   align-items: space-between;
->>>>>>> be7d4b991b8bd8e16fcc5792a4664d451c891ffa
-=======
->>>>>>> 76de5e156dd6e27f3a7060a50ef41bcd89f5e3f1
   flex-direction: row;
 }
 .header .navbar .nav-link {
@@ -364,7 +342,6 @@ template {
   color: #55acee;
   font-size: 10em;
 }
-<<<<<<< HEAD
 .header .section1 p {
   color: #253b57;
   font-size: 10em;
@@ -391,13 +368,10 @@ template {
   width: 40%;
   height: 10%;
 }
-h1 {
-=======
 .about-body {
   margin: 5px;
 }
 .about-body h1 {
->>>>>>> 76de5e156dd6e27f3a7060a50ef41bcd89f5e3f1
   text-align: center;
   font-size: 5rem;
   font-family: new_walt_disney_uiregular;
