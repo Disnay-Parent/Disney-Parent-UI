@@ -343,16 +343,24 @@ template {
   color: #55acee;
   font-size: 5rem;
 }
+.header .section1 p {
+  color: #253b57;
+  font-size: 10em;
+  text-align: center;
+}
+.header .section1 .main-gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
 .section1 .title {
   font-size: 5rem;
   text-align: center;
   font-family: new_waltographregular;
 }
-<<<<<<< HEAD
 .section1 p {
-=======
-.header .section1 p {
->>>>>>> e9b2fa67d5fda408fbcc33173134afa6a6618d25
   color: #253b57;
   font-size: 2rem;
   text-align: center;
@@ -446,6 +454,15 @@ template {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  }
+}
+@media (min-width: 1000px) {
+  .container .swap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 .container .buddy {
