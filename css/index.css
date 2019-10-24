@@ -319,89 +319,61 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+#page-nav-wrap label {
+  color: #78BEE7;
+  background: #253b57;
+  padding: 10px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+label,
+#hamburger {
+  display: none;
+}
+#page-nav-wrap,
+#page-nav {
+  background: #253b57;
+}
+#page-nav {
+  display: flex;
+  flex-direction: row;
+}
+#page-nav a {
+  color: #E0E4E9;
+  padding: 20px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  transition: all ease 0.3s;
+}
+#page-nav a:hover {
+  background: #78BEE7;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 500px) {
+  #page-nav-wrap label {
+    display: inline-block;
+  }
+  #page-nav {
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    width: 320px;
+    left: -320px;
+  }
+  #page-nav a {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  #page-nav-wrap input:checked ~ #page-nav {
+    left: 0;
+  }
+}
 .header {
   width: 100%;
   height: 20%;
-}
-.header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #253b57;
-}
-.header .navbar .brand-title {
-  font-size: 3rem;
-  margin: 1.5rem;
-  color: #E0E4E9;
-  font-family: new_walt_disney_uiregular;
-}
-.header .navbar .navbar-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.header .navbar .navbar-links ul li {
-  list-style: none;
-}
-.header .navbar .navbar-links ul li:hover {
-  background-color: #78BEE7;
-  text-transform: uppercase;
-}
-@media (max-width: 800px) {
-  .header .navbar .navbar-links ul li {
-    text-align: center;
-  }
-}
-.header .navbar .navbar-links ul li a {
-  text-decoration: none;
-  color: #E0E4E9;
-  padding: 2rem;
-  display: block;
-  font-size: 1.8rem;
-}
-@media (max-width: 800px) {
-  .header .navbar .navbar-links ul li a {
-    padding: 0.5rem 1rem;
-  }
-}
-@media (max-width: 800px) {
-  .header .navbar .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px) {
-  .header .navbar .navbar-links {
-    display: none;
-    width: 100%;
-  }
-}
-.header .navbar .toggle-button {
-  position: absolute;
-  top: 1.5rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-@media (max-width: 800px) {
-  .header .navbar .toggle-button {
-    display: flex;
-  }
-}
-.header .navbar .toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: #E0E4E9;
-  border-radius: 10px;
-}
-@media (max-width: 800px) {
-  .header .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
 .header .section1 p {
   color: #253b57;
@@ -437,11 +409,7 @@ template {
   padding-bottom: 3%;
   padding-top: 1%;
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .section1 {
     margin-left: 9%;
     margin-right: 9%;
@@ -474,11 +442,7 @@ template {
     padding-bottom: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .swap .stroller {
     width: 25%;
     height: auto;
@@ -498,11 +462,7 @@ template {
     padding-left: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .swap .sharing {
     width: 25%;
     padding-top: 2%;
@@ -514,20 +474,12 @@ template {
 .container .swap .tink {
   display: none;
 }
-<<<<<<< HEAD
 @media (min-width:800px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .swap .tink {
     display: none;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width:800px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .swap .tink {
     display: inline;
     padding-left: 5%;
@@ -538,10 +490,7 @@ template {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     flex-direction: row;
-=======
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   }
 }
 .container .buddy {
@@ -563,11 +512,7 @@ template {
     padding-bottom: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .buddy .characters {
     width: 30%;
     height: 10%;
@@ -588,11 +533,7 @@ template {
     padding-left: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .buddy .buddy-system {
     width: 25%;
     padding-top: 5%;
@@ -607,20 +548,12 @@ template {
 .container .buddy .mick {
   display: none;
 }
-<<<<<<< HEAD
 @media (min-width:800px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .buddy .mick {
     display: none;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width:800px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .buddy .mick {
     display: inline;
     padding-left: 5%;
@@ -634,11 +567,7 @@ template {
     flex-direction: row-reverse;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .buddy {
     display: flex;
     justify-content: center;
@@ -664,11 +593,7 @@ template {
     padding-bottom: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .event .daycare {
     width: 40%;
     padding-bottom: 5%;
@@ -687,11 +612,7 @@ template {
     padding-left: 2%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .event .relax {
     width: 25%;
     padding-top: 2%;
@@ -706,20 +627,12 @@ template {
 .container .event .ursula {
   display: none;
 }
-<<<<<<< HEAD
 @media (min-width:800px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .event .ursula {
     display: none;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width:800px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .event .ursula {
     display: inline;
     padding-left: 5%;
@@ -733,11 +646,7 @@ template {
     flex-direction: row;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .event {
     display: flex;
     justify-content: center;
@@ -757,21 +666,13 @@ template {
   padding-left: 10%;
   padding-bottom: 5%;
 }
-<<<<<<< HEAD
 @media (min-width:800px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss .castle {
     width: 30%;
     padding-bottom: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width:800px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss .castle {
     width: 40%;
     height: auto;
@@ -790,11 +691,7 @@ template {
     padding-bottom: 5%;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss .boards {
     width: 25%;
     padding-top: 5%;
@@ -808,20 +705,12 @@ template {
 .container .discuss .ariel {
   display: none;
 }
-<<<<<<< HEAD
 @media (min-width:800px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss .ariel {
     display: none;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width:800px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss .ariel {
     display: inline;
     padding-left: 5%;
@@ -836,11 +725,7 @@ template {
     flex-direction: row-reverse;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1000px) {
-=======
-@media (min-width: 500px) {
->>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
   .container .discuss {
     display: flex;
     justify-content: center;
@@ -860,6 +745,7 @@ template {
   text-align: center;
   font-size: 1.5rem;
   line-height: 25px;
+  padding: 0px 10px;
 }
 .about-body .cards-container {
   display: flex;
