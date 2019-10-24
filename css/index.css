@@ -420,6 +420,18 @@ template {
     display: flex;
   }
 }
+.header .section1 p {
+  color: #253b57;
+  font-size: 10em;
+  text-align: center;
+}
+.header .section1 .main-gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
 .section1 .title {
   font-size: 5rem;
   text-align: center;
@@ -542,6 +554,15 @@ template {
     flex-direction: row;
 =======
 >>>>>>> f9640aa5bcc4379415092f62586ba06e67629783
+  }
+}
+@media (min-width: 1000px) {
+  .container .swap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 .container .buddy {
