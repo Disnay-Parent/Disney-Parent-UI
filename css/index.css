@@ -393,16 +393,17 @@ label,
   text-align: center;
   font-family: new_waltographregular;
   margin: auto;
-  animation: 3s slideIn;
+  animation-name: slideIn, bounce;
+  animation-duration: 3s, 4s;
 }
 @keyframes slideIn {
   from {
     margin-left: 100%;
-    width: 300%;
+    width: 50%;
   }
   to {
-    margin-left: 0%;
-    width: 100%;
+    margin-left: 100%;
+    width: 50%;
   }
 }
 .section1 p {
@@ -439,6 +440,17 @@ label,
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: 3s slideIn;
+}
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .container .swap .stroller {
   width: 90%;
@@ -492,9 +504,18 @@ label,
   .container .swap .tink {
     display: inline;
     padding-left: 5%;
+    width: 10%;
   }
 }
 @media (min-width:800px) {
+  .container .swap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1000px) {
   .container .swap {
     display: flex;
     justify-content: center;
@@ -566,6 +587,7 @@ label,
   .container .buddy .mick {
     display: inline;
     padding-left: 5%;
+    width: 10%;
   }
 }
 @media (min-width:800px) {
@@ -590,6 +612,17 @@ label,
   align-items: center;
   flex-direction: column;
   margin: auto;
+  animation: 3s slideIn;
+}
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .container .event .daycare {
   width: 90%;
@@ -645,6 +678,7 @@ label,
   .container .event .ursula {
     display: inline;
     padding-left: 5%;
+    width: 15%;
   }
 }
 @media (min-width:800px) {
