@@ -359,6 +359,7 @@ template {
   font-size: 5rem;
   text-align: center;
   font-family: new_waltographregular;
+  margin: auto;
 }
 .section1 p {
   color: #253b57;
@@ -371,6 +372,7 @@ template {
   align-items: center;
   padding-bottom: 3%;
   padding-top: 1%;
+  margin: auto;
 }
 @media (min-width: 1000px) {
   .section1 {
@@ -380,12 +382,13 @@ template {
   }
 }
 .container {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin: auto;
 }
 .container .swap {
   display: flex;
@@ -396,7 +399,6 @@ template {
 .container .swap .stroller {
   width: 90%;
   height: 10%;
-  padding-left: 10%;
   padding-bottom: 5%;
 }
 @media (min-width:800px) {
@@ -471,11 +473,11 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .container .buddy .characters {
   width: 90%;
   height: 10%;
-  padding-left: 10%;
   padding-bottom: 5%;
 }
 @media (min-width:800px) {
@@ -552,11 +554,11 @@ template {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
 .container .event .daycare {
   width: 90%;
   height: 10%;
-  padding-left: 10%;
   padding-bottom: 5%;
 }
 @media (min-width:800px) {
@@ -631,12 +633,13 @@ template {
   justify-content: center;
   align-items: space-evenly;
   flex-direction: column;
+  margin: auto;
 }
 .container .discuss .castle {
   width: 90%;
   height: 10%;
-  padding-left: 10%;
   padding-bottom: 5%;
+  padding-left: 4%;
 }
 @media (min-width:800px) {
   .container .discuss .castle {
@@ -656,6 +659,7 @@ template {
   font-size: 3rem;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 4%;
 }
 @media (min-width:800px) {
   .container .discuss .boards {
