@@ -5,7 +5,32 @@
         text-align: center;
         font-family: new_waltographregular;
         margin: auto;
-        
+        animation: 3s slideIn;
+
+        @keyframes slideIn {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+       @media @esktop {
+        animation: 3s slideIn;
+
+        @keyframes slideIn {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+       } 
     }
     p {
         .main-font(@main-header, 2rem);
@@ -22,6 +47,7 @@
         margin-left: 9%;
         margin-right: 9%;
         line-height: 35px;
+        
     }
 }
 .container {
@@ -57,6 +83,7 @@
                 font-size: 3rem;
                 text-align: center;
                 font-family: 'Roboto Condensed', sans-serif;
+                
                
                 @media @tablet {
                     width: 40%;
